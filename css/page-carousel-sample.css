@@ -1,0 +1,76 @@
+/*
+============
+Custom variables declaration area
+============
+*/
+/*
+ === Page template Style declarations ===
+ * It is mandatory to verify right CSS selectors.
+ ========================================
+*/
+#carouselCustomLayoutMain {
+  z-index: 0; }
+  #carouselCustomLayoutMain .carousel-inner .carousel-item {
+    transition: opacity 0.9s ease-in-out; }
+    #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-mainslide {
+      position: relative;
+      padding-right: 0;
+      overflow: hidden;
+      display: flex;
+      align-items: stretch; }
+      #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-mainslide img {
+        object-fit: cover;
+        opacity: 1;
+        filter: brightness(120%);
+        position: relative; }
+      #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-mainslide .carousel-custom-content {
+        color: #ffffff;
+        position: absolute;
+        text-align: center;
+        text-shadow: 0 0 5px #000000;
+        bottom: 0; }
+    #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-subslide {
+      position: relative;
+      padding-left: 0.5em !important;
+      margin: 0 !important;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
+      #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-subslide .carousel-custom-subslide-1 {
+        background-color: black;
+        padding-top: 0;
+        margin-top: 0; }
+        #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-subslide .carousel-custom-subslide-1 img {
+          object-fit: cover;
+          opacity: 0.5; }
+      #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-subslide .carousel-custom-subslide-2 {
+        background-color: black; }
+        #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-subslide .carousel-custom-subslide-2 img {
+          object-fit: cover;
+          opacity: 0.5; }
+      #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-subslide .carousel-custom-subslide-3 {
+        background-color: black;
+        padding-bottom: 0;
+        margin-bottom: 0; }
+        #carouselCustomLayoutMain .carousel-inner .carousel-item .row .carousel-custom-subslide .carousel-custom-subslide-3 img {
+          object-fit: cover;
+          opacity: 0.5; }
+  #carouselCustomLayoutMain .row #carouselCustomLayoutControl #container-button-previous {
+    /* Padding left: 5% view width, padding right: 30% view width */ }
+    #carouselCustomLayoutMain .row #carouselCustomLayoutControl #container-button-previous .carousel-control-prev {
+      width: 10%;
+      opacity: 1;
+      z-index: 101; }
+      #carouselCustomLayoutMain .row #carouselCustomLayoutControl #container-button-previous .carousel-control-prev .carousel-control-prev-icon {
+        position: absolute;
+        background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%3dfc03'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e"); }
+  #carouselCustomLayoutMain .row #carouselCustomLayoutControl #container-button-next .carousel-control-next {
+    width: 10%;
+    opacity: 1;
+    z-index: 101;
+    padding-right: 30%; }
+    #carouselCustomLayoutMain .row #carouselCustomLayoutControl #container-button-next .carousel-control-next .carousel-control-next-icon {
+      position: absolute;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%3dfc03'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e"); }
+
+/*# sourceMappingURL=page-carousel-sample-2.css.map */

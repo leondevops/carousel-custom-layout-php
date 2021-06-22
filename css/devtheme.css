@@ -1,0 +1,12 @@
+html,
+
+/*
+	Example CSS for custom theme : devtheme
+*/
+body {
+	margin: 0
+	color: #333;	
+	background: #eaeaea;	/*  light, grey */
+	font: sans-serif;
+}
+
