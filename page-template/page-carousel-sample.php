@@ -17,9 +17,11 @@ Template Name: DevTheme Page Template - Carousel
 
 <!-- I. Hero features - carousel -->
 <h3> === Custom carousel === </h3>
-<?php
-get_template_part('page-template/layout','carousel-custom');  // include content-meta.php
-?>
+<!-- php function to include HTML template: -->
+<!-- get_template_part('page-template/layout','carousel-custom'); -->
+
+<?php include_once("layout-carousel-custom.html"); ?>
+
 
 <!-- II. The main content: the main loop & its sidebar -->
 <div class="row">
