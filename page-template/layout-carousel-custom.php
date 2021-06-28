@@ -1,4 +1,7 @@
 
+<?php global $template; ?>
+<p> The current page template : "<?php echo basename($template); ?>" </p>
+
 
 <!-- Display only wrapper & control. Each slide contain single caption-->
 <div class="row">
